@@ -25,6 +25,8 @@ This project involves analyzing and cleaning a dataset of retail transactions (`
      UnitPrice       0.000923%
      ```
 
+   ![Persentasi Missing Column](https://github.com/user-attachments/assets/bfd2c2b1-3e00-40cb-9811-9c3083d9b92b)
+
 2. **Which countries have missing data?**
    - Countries with missing data:
      ```
@@ -42,6 +44,8 @@ This project involves analyzing and cleaning a dataset of retail transactions (`
      Bahrain                2
      ```
 
+   ![Persentasi Missing Negara](https://github.com/user-attachments/assets/9dbcd26b-02b0-418c-9310-84e41dd33f80)
+
 ---
 
 ### Task 2: Data Cleaning
@@ -56,7 +60,6 @@ The missing data was cleaned as follows:
 - **CustomerID**: Filled using the **mode within each country**. If a mode was unavailable for a group, the default value `0` was used.
 
 After cleaning, no missing values remained in the dataset:
-
 
 #### 2b. Explanation of the Data Cleaning Process
 1. **Numerical Columns**:
@@ -121,4 +124,3 @@ The results were saved in the following files:
 - **Plagiarism**: Plagiarism will not be tolerated! Answers must be completed independently. If identical answers (copy-paste) are found among students, a grade of **D** will be assigned.
 
 Good luck with your UTS!
-
